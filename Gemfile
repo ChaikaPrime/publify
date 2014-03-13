@@ -39,6 +39,8 @@ group :development, :test do
   gem 'pry-rails'
 end
 
+gem 'rails_12factor'
+
 # Install gems from each theme
 Dir.glob(File.join(File.dirname(__FILE__), 'themes', '**', "Gemfile")) do |gemfile|
   eval(IO.read(gemfile), binding)
