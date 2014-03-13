@@ -26,4 +26,6 @@ Publify::Application.configure do
 
   # Enable threaded mode
   # config.threadsafe!
+
+config.serve_static_assets = true
 end
